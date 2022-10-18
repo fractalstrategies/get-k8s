@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/static/css/main.073c9b0a.css",
-    "main.js": "/static/js/main.f7ea63ff.js",
-    "static/js/787.f4e9ed37.chunk.js": "/static/js/787.f4e9ed37.chunk.js",
-    "static/media/k8s-logo.webp": "/static/media/k8s-logo.768852031bf169efec13.webp",
+    "main.css": "/get-k8s/docs/static/css/main.073c9b0a.css",
+    "main.js": "/get-k8s/docs/static/js/main.f7ea63ff.js",
+    "static/js/787.f4e9ed37.chunk.js": "/get-k8s/docs/static/js/787.f4e9ed37.chunk.js",
+    "static/media/k8s-logo.webp": "/get-k8s/docs/static/media/k8s-logo.768852031bf169efec13.webp",
     "index.html": "/index.html",
-    "main.073c9b0a.css.map": "/static/css/main.073c9b0a.css.map",
-    "main.f7ea63ff.js.map": "/static/js/main.f7ea63ff.js.map",
-    "787.f4e9ed37.chunk.js.map": "/static/js/787.f4e9ed37.chunk.js.map"
+    "main.073c9b0a.css.map": "/get-k8s/docs/static/css/main.073c9b0a.css.map",
+    "main.f7ea63ff.js.map": "/get-k8s/docs/static/js/main.f7ea63ff.js.map",
+    "787.f4e9ed37.chunk.js.map": "/get-k8s/docs/static/js/787.f4e9ed37.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.073c9b0a.css",
