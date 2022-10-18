@@ -1,23 +1,36 @@
-import logo from './images/k8s-logo.webp';
-import './App.css';
+import { useState } from 'react'
+import './App.css'
 
-function App() {
+import Links from './components/links'
+import Home from './components/home'
+import Services from './components/services'
+import ToDo from './components/todo'
+
+export default function App() {
+
+  const [page, setPage] = useState('home')
+  let pageJS
+
+  switch (page) {
+    case 'home':
+      pageJS = <Home setPage={setPage} />
+      break
+    case 'services':
+      pageJS = <Services setPage={setPage} />
+      break
+    case 'todo':
+      pageJS = <ToDo setPage={setPage} />
+      break
+    default:
+      <Home setPage={setPage} />
+  }
+
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Get started with <code>Kubernetes</code> and save ⏱💰😥😭.
-        </p>
-        <a
-          className="App-link"
-          href="https://shiraz.is.fat"
-          target="_blank"
-          rel="noopener noreferrer"
-        >Learn k8s with us!</a>
+        <Links setPage={setPage} />
+        {pageJS}
       </header>
     </div>
-  );
+  )
 }
-
-export default App;
