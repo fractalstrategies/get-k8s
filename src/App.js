@@ -11,7 +11,7 @@ function App() {
         </p>
         <a
           className="App-link"
-          href="https://reactjs.org"
+          href="https://shiraz.is.fat"
           target="_blank"
           rel="noopener noreferrer"
         >Learn k8s with us!</a>
