@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+import logo from './images/k8s-logo.webp';
 import './App.css';
 
 function App() {
@@ -7,16 +7,14 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Get started with <code>Kubernetes</code> and save ⏱💰😥😭.
         </p>
         <a
           className="App-link"
           href="https://reactjs.org"
           target="_blank"
           rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        >Learn k8s with us!</a>
       </header>
     </div>
   );
