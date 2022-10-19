@@ -14,7 +14,7 @@ export default function App() {
 
   return (
     <div className="App" style={{
-      height: '100vh',
+      minHeight: '100vh',
       backgroundColor: '#282c34',
       color: 'white',
       textAlign: 'center',

@@ -4,6 +4,7 @@ export default function ToDo(props) {
       <h1>To Do</h1>
       <ol>
         <li>add calculator detail</li>
+        <li>services definitions</li>
         <li>better styles</li>
         <li>nopage design</li>
       </ol>
