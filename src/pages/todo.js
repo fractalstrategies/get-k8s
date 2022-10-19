@@ -3,9 +3,10 @@ export default function ToDo(props) {
     <div>
       <h1>To Do</h1>
       <ol>
-        <li>react router</li>
+        <li>nav layout drawer</li>
         <li>value calculator</li>
         <li>better styles</li>
+        <li>nopage design</li>
       </ol>
     </div>
   )
