@@ -4,6 +4,7 @@ import Layout from "./components/layout"
 
 import Home from './pages/home'
 import Services from './pages/services'
+import Calculator from './pages/calculator'
 import ToDo from './pages/todo'
 import NoPage from "./pages/nopage"
 
@@ -19,10 +20,12 @@ export default function App() {
       textAlign: 'center',
     }}>
       <BrowserRouter>
+      {/* <BrowserRouter basename='/get-k8s'> */}
         <Routes>
           <Route path="/" element={<Layout />}>
             <Route index element={<Home />} />
             <Route path="services" element={<Services />} />
+            <Route path="calculator" element={<Calculator />} />
             <Route path="todo" element={<ToDo />} />
             <Route path="*" element={<NoPage />} />
           </Route>

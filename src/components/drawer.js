@@ -12,10 +12,16 @@ import ListItemIcon from '@mui/material/ListItemIcon'
 import ListItemText from '@mui/material/ListItemText'
 
 import MenuIcon from '@mui/icons-material/Menu'
-import SupportAgentIcon from '@mui/icons-material/SupportAgent'
 import HomeIcon from '@mui/icons-material/Home'
+import SupportAgentIcon from '@mui/icons-material/SupportAgent'
+import CalculateIcon from '@mui/icons-material/Calculate';
 import TaskIcon from '@mui/icons-material/Task'
-import MailIcon from '@mui/icons-material/Mail'
+import BrowserNotSupportedIcon from '@mui/icons-material/BrowserNotSupported';
+
+// 'right', 'top', 'bottom'
+const drawers = {
+  'left': < MenuIcon />
+}
 
 const links1 = {
   'Home': {
@@ -26,9 +32,9 @@ const links1 = {
     'icon': <SupportAgentIcon />,
     'path': '/services'
   },
-  'Message Us': {
-    'icon': <MailIcon />,
-    'path': '/messageus'
+  'Calculator': {
+    'icon': <CalculateIcon />,
+    'path': '/calculator'
   },
 }
 const links2 = {
@@ -36,13 +42,11 @@ const links2 = {
     'icon': <TaskIcon />,
     'path': '/todo'
   },
+  ' 404': {
+    'icon': <BrowserNotSupportedIcon />,
+    'path': '/404'
+  },
 }
-
-// 'right', 'top', 'bottom'
-const drawers = {
-  'left': < MenuIcon />
-}
-
 
 export default function DrawerFS() {
   const [state, setState] = React.useState({

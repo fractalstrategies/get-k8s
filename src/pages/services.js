@@ -1,6 +1,6 @@
 export default function Services(props) {
   return (
-    <div>
+    <div style={{ width: 300, margin: 'auto', textAlign: 'left' }}>
       <h1>Services</h1>
       <ul>
         <li>containerization</li>
