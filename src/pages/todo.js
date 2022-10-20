@@ -5,13 +5,15 @@ export default function ToDo(props) {
 
       <div style={{ width: 300, margin: 'auto', textAlign: 'left' }}>
         <ol>
-          <li>Update Calculator defaults</li>
+          <li>Calculator sidebar</li>
+          <li>CalculatorHW</li>
           <li>better styles</li>
           <li>nopage design</li>
         </ol>
 
         <h2>Done</h2>
         <ul>
+          <li>update Calculator defaults</li>
           <li>organize calculator variables</li>
           <li>services definitions</li>
           <li>add calculator detail</li>
