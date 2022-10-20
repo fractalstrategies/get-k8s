@@ -1,5 +1,5 @@
 import { Outlet } from "react-router-dom"
-import DrawerFS from './drawer'
+import DrawerFS from './DrawerFS'
 
 const Layout = () => {
   return (

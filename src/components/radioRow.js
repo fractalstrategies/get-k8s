@@ -9,18 +9,24 @@ export default function RowRadioButtonsGroup(props) {
   const label = props['label']
   const options = props['options']
   const cb = props['cb']
+  const value = props['value']
 
   return (
     <FormControl>
       <FormLabel id="demo-row-radio-buttons-group-label">{label}</FormLabel>
       <RadioGroup
         row
-        aria-labelledby="demo-row-radio-buttons-group-label"
         name="row-radio-buttons-group"
+        value={value}
         onChange={e => {cb(e.target.value)}}
       >
-        {Object.keys(options).map((text) => (
-          <FormControlLabel key={text} control={<Radio />} value={options[text]} label={text} />
+        {options.map(text => (
+          <FormControlLabel
+            key={text}
+            control={<Radio />}
+            value={text}
+            label={text}
+          />
         ))}
         <FormControlLabel
           disabled

@@ -1,22 +1,27 @@
 export default function ToDo(props) {
   return (
-    <div style={{ width: 300, margin: 'auto', textAlign: 'left' }}>
-      <h1>To Do</h1>
-      <ol>
-        <li>organize calculator variables</li>
-        <li>better styles</li>
-        <li>nopage design</li>
-      </ol>
+    <div style={{ backgroundColor: '#778', padding: 30 }}>
+        <h1>To Do</h1>
 
-      <h2>Done</h2>
-      <ul>
-        <li>services definitions</li>
-        <li>add calculator detail</li>
-        <li>better services display</li>
-        <li>value calculator</li>
-        <li>nav layout drawer</li>
-        <li>react router</li>
-      </ul>
+      <div style={{ width: 300, margin: 'auto', textAlign: 'left' }}>
+        <ol>
+          <li>Update Calculator defaults</li>
+          <li>better styles</li>
+          <li>nopage design</li>
+        </ol>
+
+        <h2>Done</h2>
+        <ul>
+          <li>organize calculator variables</li>
+          <li>services definitions</li>
+          <li>add calculator detail</li>
+          <li>better services display</li>
+          <li>value calculator</li>
+          <li>nav layout drawer</li>
+          <li>react router</li>
+        </ul>
+      </div>
+
     </div>
   )
 }

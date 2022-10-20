@@ -1,11 +1,11 @@
-import BasicCard from "../components/card"
+import BasicCard from "../components/BasicCard"
 
 export default function Services(props) {
   return (
-    <div>
+    <div style={{ backgroundColor: '#334', padding: 30 }}>
       <h1>How We Help</h1>
 
-      <div style={{ width: '80%', margin: 'auto', display: 'flex', flexDirection: 'row', justifyContent: 'space-evenly', flexWrap: 'wrap' }}>
+      <div style={{ width: '90%', margin: 'auto', display: 'flex', flexDirection: 'row', justifyContent: 'space-evenly', flexWrap: 'wrap' }}>
         <BasicCard url='/calculator' text1='Project' text2='Containerization' text3='action' text4='a form of virtualization where applications run in isolated user spaces, called containers, while using the same shared operating system' />
         <BasicCard url='/calculator' text1='Walkthrough' text2='Provisioning' text3='action' text4='preparing and equipping a network to allow it to provide new services to its users' />
         <BasicCard url='/calculator' text1='Service' text2='Deployment' text3='workflow' text4='a method for quickly building and releasing complex applications' />
